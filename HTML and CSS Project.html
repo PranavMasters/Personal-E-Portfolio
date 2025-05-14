@@ -1,0 +1,118 @@
+<!--
+Problem Statement:
+    Create a personal portfolio website that showcases your skills, projects, and
+    professional experience. The website should serve as a digital resume, allowing
+    potential employers or clients to understand your qualifications and capabilities at
+    a glance.
+Technologies:
+    ● HTML: Structure the content of the website.
+    ● CSS: Style the website.
+Requirements:
+    ● Showcase Projects: Display a selection of your best work, including
+    descriptions, technologies used, and links to live demos or repositories.
+    ● Highlight Skills: Provide a clear overview of your technical skills, including
+    programming languages, frameworks, and tools you are proficient in.
+    ● Professional Experience: Outline your work history and relevant
+    experience concisely and visually appealingly.      
+    ● Contact Information: Include a way for visitors to contact you easily, such
+    as a contact form or direct email link.
+    Deliverables:
+    ● A fully functional portfolio website hosted online on platforms like Netlify.
+    ● Source code stored in a GitHub repository.
+Figma/UI:
+    ● https://www.figma.com/design/Ihy6ThGMe0Rb02VV3fXanI/Html-Css-portfolio?node-id=0-1&t=PHiyjUNpYsOJYFIy-1
+    ● Make sure your UI looks exactly the same as the one given in the Figma
+    link.`
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Pranav's Personal E-Portfolio</title>
+</head>
+<body class="content">
+    <header class="header">
+        <div class="header-logo">
+            <h1><span class="about">About</span><span class="me">Me.</span></h1>
+        </div>
+        <nav class="nav">
+            <ul>
+              <li><a href="#intro">Home</a></li>
+              <li><a href="#aboutme">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#experiences">Experience</a></li>
+              <li><a href="#contactme">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="actualcontent">
+        <section id="intro">
+            <div class="intro-content">
+                <div class="intro-text">
+                    <p>Hello, Welcome</p>
+                    <h1><span>I'm</span> Pranav Harsha Karthikeyan</h1>
+                    <p>
+                    Hello! I am Pranav Harsha K. and this is my personal portfolio of all the 
+                    numerous achievements I have accomplished in my life. This portfolio is a 
+                    reflection of the growing potential that was nurtured, and what may come 
+                    out of my skill and talent. As a person, I am a loyal, open, fun yet disciplined 
+                    and aspire to do a bucket list of targets to achieve within the next two decades. 
+                    Below are all the details you would need to know about me, have a look.  
+                    </p>
+                    <button href="#contactme">Contact Me</button>
+                </div>
+                <div class="image">
+                    <figure>
+                        <a target="_blank" href="https://www.youtube.com/@AllTitan-pm6fp">
+                            <img src="./images/New Channel 'Doing Something' Logo.jpg" alt="A Picture of Me" />
+                        </a>
+                        <figcaption>The Logo Of My YouTube Channel</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>          
+        <section id="aboutme">
+            <div class="aboutme-image">
+                <figure>
+                    <img src="./images/pranav.jpg" alt="A Picture Of Me">
+                    <figcaption>A Picture Of Me</figcaption>
+                </figure>
+            </div>
+            <div class="aboutme-text">
+                <h1>About <span style="color: #e5a944;">Me</span></h1>
+                <p>I am a 14-year-old, 10th Grade student from The Indian Public School, 
+                   and am studying for my board exams this year (2025). I enjoy learning 
+                   all the principles and concepts of math and science, however I love 
+                   doing other hobbies such as but not limited to: Origami (All Kinds), 
+                   Programming, Composing Music, Binging Sitcoms and Anime, Playing a Variety 
+                   of Sports</p>
+                <button>Contact Me</button>
+            </div>
+        </section>
+        <section id="services"></section>
+        <section id="Portfolio"></section>
+        <section id="Experiences"></section>
+    </main>
+    <footer class="footer">
+        <h1 class="footer-heading">Contact <span style="color: #e5a944;">Me</span></h1>
+        <div class="footer-form">
+            <div class="footer-info">
+                <p><span>Address:</span> Chennai, India</p>
+                <p><span>Phone No.:</span> +91 9095439640</p>
+                <p><span>E-Mail:</span> pranavhk059@gmail.com</p>
+                <p><span>Website:</span> Not activated on the internet yet. Check Github.</p>
+            </div>
+            <div class="form">
+                <form>
+                    <input type="text" placeholder="Name" required>
+                    <textarea cols="30" rows="5" placeholder="Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
